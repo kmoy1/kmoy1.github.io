@@ -1,4 +1,4 @@
 # Notes
 
-Here are some notes below for several topics/classes at Berkeley. 
+Some notes I've written over the years. 
 

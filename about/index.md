@@ -1,3 +1,5 @@
+# About Me
+
 Hi! My name is Kevin Moy, and I'm a sophomore majoring in computer science and data science at UC Berkeley. 
 
 In addition to programming and computer science, I'm also incredibly passionate about sports and games, and consistently look for ways to merge the two concepts together. The beauty of finding patterns in the dynamic and unpredictable nature of sports through computer science fuels my passion into this field. 

@@ -9,7 +9,7 @@ Instead of returning the maximum subset sum, we want to return if a subset of a 
 <details><summary>CLICK ME</summary>
 <p>
 
-#### yes, even hidden code blocks!
+
 
 ```python
 print("hello world!")

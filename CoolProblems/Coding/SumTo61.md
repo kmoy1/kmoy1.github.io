@@ -35,9 +35,18 @@ TEST
 
 <details><summary markdown="span">View Solution</summary>
 ```python
-print('Hello World!')
+def combine_to_61(lst):
+    def helper(lst, num_so_far):
+        if num_so_far == 61:
+            return True
+        elif not lst:
+            return False
+        with_sum = num_so_far + lst[0] <= 61 and helper(lst[1:], num_so_far + lst[0])
+        with_mul = num_so_far * lst[0] <= 61 and helper(lst[1:], num_so_far * lst[0])
+        return with_sum or with_mul
+    return helper(lst, 0)
 ```
-Of course, it has to be Hello World, right?
+The first thing we notice is that we have a helper function. Whenever we have a helper function, it's most likely that helper function that will do most of the work: the outer function `combine_to_61` is just the "kickstarter". 
 </details>
 <br/>
 

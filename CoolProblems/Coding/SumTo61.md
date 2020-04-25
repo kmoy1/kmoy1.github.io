@@ -2,68 +2,23 @@
 
 Let's take a simplified version of the max subset sum problem. 
 
-Instead of returning the maximum subset sum, we want to return if a subset of a given list sums to 61.
+Instead of returning the maximum subset sum, we want to return if a subset of a given list sums to 61. This subset **is not required to be contiguous**! For example
 
 TEST
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.collapsible {
-  background-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-.active, .collapsible:hover {
-  background-color: #555;
-}
-
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
-}
-</style>
-<body>
-
-<button class="collapsible">View Solution</button>
-<div class="content">
-  <p>`Code`</p>
-</div>
-
-# TEST: Collapsible code.
 <details>
-  <summary>Click to expand!</summary>
-  
-  ```javascript
-    function whatIsLove() {
-      console.log('Baby Don't hurt me. Don't hurt me');
-      return 'No more';
-    }
-  ```
-</details>
+<summary>I could use some help...</summary>
+<p>
 
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
+```c#
+public class Order
+{
+    public int OrderId { get; set; }
+    public int CustomerId { get; set; }
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
-  });
+    public List<int> Products { get; set; }
 }
-</script>
+\```
+
+</p>
+</details> 

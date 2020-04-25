@@ -8,7 +8,7 @@ Let's take a simplified version of the maximum subset sum problem.
 
 For those who aren't familiar with the term, a subset of some list X is defined as a list whose elements are all in X. So if I have `X = [1,2,3,4,5]`, `[1,3,5]` is a valid subset of X because all 3 of its elements are in X. Remember that X itself, and the empty list `[]`, are both subsets of X!
 
-```
+```python
 def combine_to_61(lst):
     """
     >>> combine_to_61([3, 4, 5])

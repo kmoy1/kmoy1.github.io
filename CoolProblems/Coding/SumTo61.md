@@ -14,13 +14,7 @@ Instead of returning the maximum subset sum, we want to return if a subset of a 
 ```python
 print("hello world!")
 ```
-
 </p>
 </details>
 
 
-<solution>
-
-&theta;(n<sup>3</sup>)
-
-</solution>

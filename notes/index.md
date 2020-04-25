@@ -8,5 +8,7 @@ Some notes I've written over the years.
 
 [CS170: Algorithms Notes](cs170)
 
+[CS70: Discrete Math + Probability Theory Notes](cs70)
+
 [CSW186: Databases Notes](cs186)
 

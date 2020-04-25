@@ -19,12 +19,12 @@ def combine_to_61(lst):
     False # elements must be contiguous
     """
     def helper(lst, num_so_far):
-    if _______________________________:
+    if ________:
         return True
-    elif _____________________________:
+    elif ________:
         return False
-    with_sum = _________________________ and helper(________________, __________________)
-    with_mul = _________________________ and helper(________________, __________________)
+    with_sum = _____________ and helper(________, ________)
+    with_mul = _____________ and helper(________, ________)
     return with_sum or with_mul
 return _____________________________
 ```

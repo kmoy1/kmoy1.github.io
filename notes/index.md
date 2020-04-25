@@ -2,5 +2,5 @@
 
 Some notes I've written over the years. 
 
-[CS61B Notes](/cs61b)
+[CS61B Notes](cs61b)
 

@@ -18,3 +18,9 @@ print("hello world!")
 </p>
 </details>
 
+
+<solution>
+
+&theta;(n<sup>3</sup>)
+
+</solution>

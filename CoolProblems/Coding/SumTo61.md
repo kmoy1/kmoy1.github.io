@@ -1,6 +1,6 @@
 # Sum To 61(A)
 
-I developed this problem back in Fall 2019 as a part of Berkeley CSM, and it's one of my proudest creations. 
+I developed this problem back in Fall 2019 as a part of Berkeley CSM for CS61A, and it's one of my proudest creations. 
 
 Let's take a simplified version of the maximum subset sum problem. 
 

@@ -39,19 +39,17 @@ TEST
   <p>`Code`</p>
 </div>
 
-<p>Collapsible Set:</p>
-<button class="collapsible">Open Section 1</button>
-<div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-<button class="collapsible">Open Section 2</button>
-<div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-<button class="collapsible">Open Section 3</button>
-<div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
+# TEST: Collapsible code.
+<details>
+  <summary>Click to expand!</summary>
+  
+  ```javascript
+    function whatIsLove() {
+      console.log('Baby Don't hurt me. Don't hurt me');
+      return 'No more';
+    }
+  ```
+</details>
 
 <script>
 var coll = document.getElementsByClassName("collapsible");

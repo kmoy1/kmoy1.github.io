@@ -26,7 +26,7 @@ def combine_to_61(lst):
         with_sum = _____________ and helper(________, ________)
         with_mul = _____________ and helper(________, ________)
         return with_sum or with_mul
-return _____________________________
+    return _____________________________
 ```
 
 TEST

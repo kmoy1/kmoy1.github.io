@@ -4,13 +4,6 @@ Let's take a simplified version of the max subset sum problem.
 
 Instead of returning the maximum subset sum, we want to return if a subset of a given list sums to 61.
 
-## collapsible markdown?
-
-
-```python
-print("hello world!")
-```
-
 TEST
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,15 +32,11 @@ TEST
   background-color: #f1f1f1;
 }
 </style>
-</head>
 <body>
 
-<h2>Animated Collapsibles</h2>
-
-<p>A Collapsible:</p>
-<button class="collapsible">Open Collapsible</button>
+<button class="collapsible">View Solution</button>
 <div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>`Code`</p>
 </div>
 
 <p>Collapsible Set:</p>

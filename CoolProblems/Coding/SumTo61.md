@@ -46,9 +46,20 @@ def combine_to_61(lst):
         return with_sum or with_mul
     return helper(lst, 0)
 ```
-The first thing we notice is that we have a helper function. Whenever we have a helper function, it's most likely that helper function that will do most of the work: the outer function `combine_to_61` is just the "kickstarter". 
 </details>
-<br/>
+
+<details><summary markdown="span">View Explanation</summary>
+The first thing we notice from our skeleton code is that we take a helper function that takes an extra parameter `num_so_far`. In general, added parameters such as this are meant as a tracker of progress somehow. This should immediately give us a clue that `num_so_far` will track our total sum-product recursively.
+    
+Given that, our first base case becomes easy: If our tracker has a value of 61, we know we've found some product/sum of elements in `lst` that results in value 61. 
+ 
+Our second base case will probably consider the other parameter list: in general, try to consider base cases for each parameter. So we ask ourselves, "When do we know immediately whether or not our list can combine to 61 or not?" Well, on the simplest possible input, an empty list, of course! There's no possible way you can do anything sum or product with an empty list. 
+ 
+With our base cases done, now comes the fun part of the problem: Implementing the sum/product algorithm. We see in our skeleton code that our helper function returns `with_sum or with_mul`. This indicates that `with_sum` and `with_mul` should be one-liner booleans! With that knowledge, what do we do? Well, in recursive problems such as this, it's incredibly to common perform an action with one element and recurse on the rest. So to test summing one element from lst into our sum-product cumulative total, we can call `helper(lst[1:], num_so_far + lst[0])`, and to test multiplying that element, we call `helper(lst[1:], num_so_far * lst[0])`. 
+
+We can prune our recursive tree a bit with our contiguousness requirement: if the operation of summing OR multiplying by the first element of `lst` results in a sum-product greater than 61, we know we'll have overshot it and that subset won't work.
+
+</details>
 
 {::options parse_block_html="false" /}
 

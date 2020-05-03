@@ -10,7 +10,7 @@ Some notes I've written over the years.
 
 [Discrete Math + Probability Theory Notes](cs70)
 
-```markdown
 [Databases Notes](cs186)
-```
+
+
 

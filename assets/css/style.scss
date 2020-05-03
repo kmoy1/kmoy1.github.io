@@ -4,9 +4,14 @@
 @import "{{ site.theme }}";
 
 h1 {
+//   padding: 1em 1.5em;
   text-align: left;
 }
 
 p {
   font-size: 15px;
+}
+
+section {
+  width: 600px;
 }

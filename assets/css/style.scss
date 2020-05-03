@@ -14,3 +14,31 @@ p {
 section {
   width: 600px;
 }
+
+a {
+    background-color: red;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+fancyLink1:hover {
+  background-color: #555;
+}
+
+fancyLink1:active {
+  background-color: black;
+}
+
+fancyLink1:visited {
+  background-color: #ccc;
+}
+
+/* Non-Demo Styles */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

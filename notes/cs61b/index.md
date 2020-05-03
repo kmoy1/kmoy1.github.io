@@ -1,4 +1,4 @@
-# CS61B Notes
+# Data Structures Notes
 
 Below you'll find an assortment of lecture and personal notes for CS61B: Data Structures at Berkeley.
 

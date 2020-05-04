@@ -1,1 +1,1 @@
-# CS170 Notes
+# Algorithms Notes

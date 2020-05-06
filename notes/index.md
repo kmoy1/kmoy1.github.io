@@ -2,15 +2,15 @@
 
 Some notes I've written over the years. 
 
-[Data Structures Notes](cs61b)
+[Data Structures](cs61b)
 
-[Computer Security Notes](cs161)
+[Computer Security](cs161)
 
-[Algorithms Notes](cs170)
+[Algorithms](cs170)
 
-[Discrete Math + Probability Theory Notes](cs70)
+[Discrete Math + Probability Theory](cs70)
 
-[Databases Notes](cs186)
+[Databases](cs186)
 
 
 

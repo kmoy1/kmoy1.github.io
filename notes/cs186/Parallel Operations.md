@@ -40,7 +40,7 @@ Steps:
 
 If we have a *massive* table and want to join it with a relatively miniscule table, **broadcast join** might be the way to go. 
 
-Let’s say $R$ is a 1,000,000 page table, round robin partitioned. Let's say $S$ is a 100 page table that is not partitioned (all on a single machine). We could do one of the parallel join algorithms discussed above, but those require partitioning *all* records of both $R$ and $S$. Given the size of $R$, we don't really want to do that (massive network cost).
+Let’s say $R$ is a 1,000,000 page table, (round robin) *partitioned already*. Let's say $S$ is a 100 page table that is not partitioned (all on a single machine). We could do one of the parallel join algorithms discussed above, but those require partitioning *all* records of both $R$ and $S$. Given the size of $R$, we don't really want to do that (massive network cost).
 
 A broadcast join solves this problem because we send a copy of the smaller relation ($S$) to *every* machine, i.e. ALL the records of $S$ go to every machine. Then, each machine does a local join, and concatenates, as usual. Even though each machine might be doing more work compared to if we did parallel SMJ/GHJ, the point is we **avoid partitioning a fatass relation over the network**. So we save a bunch of IOs. 
 
@@ -51,7 +51,7 @@ All the join algorithms discussed above share an unfortunate quality: they are a
 However, there might be a solution with **Symmetric Hash Join**! Let's say we want to join $R$ and $S$ again.
 
 1. Build 2 hash tables $H_R$ and $H_S$ from records in $R$ and $S$. 
-2. For each record $r_i$ in $R$, probe $H_S$ for all matches and output any found. For each record $s_j$ in $S$, probe $H_R$ for all matches and output any found.
+2. For each record $r_i$ in $R$, probe $H_S$ for all matches and output any found. For each record $s_j$ in $S$, probe $H_R$ for all matches and output any found (concatenate these records to form a joined table record)
 3. Add record to corresponding hash table. 
 
 Here, every output tuple will be generated exactly once: when the second matching tuple arrives! It doesn't matter which record arrives first. Thus, SHJ is not a pipeline breaker.
@@ -63,4 +63,3 @@ Here, every output tuple will be generated exactly once: when the second matchin
 To parallelize COUNT, each machine individually counts their records. The machines all send their counts to another machine which sums all sums for final sum.
 
 Parallelizing AVG is a little trickier: the average of a bunch of averages isn’t necessarily the average of the data set. To parallelize AVG each machine must calculate the sum of all the values and the count. They then send these values to the coordinator machine. The coordinator machine adds up the sums to calculate the overall sum and then adds up the counts to calculate the overall count. It then divides the sum by the count to calculate the final average.
-

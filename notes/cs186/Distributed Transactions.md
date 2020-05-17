@@ -33,7 +33,7 @@ Remember that for a *single* distributed transaction, we have a coordinator node
 
 ### Phase 2:  Commit/Abort phase
 
-1. Coordinator broadcasts (sends message to every node in the db) if it flushed commit/abort. 
+1. Coordinator broadcasts (sends message to every node in the db) if it flushed COMMIT/ABORT. 
 2. Participant nodes follow suit and flush same record as coord
 3. Participants send an ACK message to coordinator
 4. Once all participants send ACK, coordinator generates END record and flushes the record at some point later.
@@ -48,7 +48,7 @@ The 2PC protocol tells us to log (flush) prepare, commit, and abort records. Thi
 
 ### Failure 1: Recovering Participant, No Prepare Record
 
-The first possible failure point is in the first step of phase 1: participant node errors, begins recovery, and sees no prepare record flushed by it to disk. This probably means that the participant has not even started 2PC yet. We also know it hasn't sent out any vote (YES/NO) messages to the coordinator yet, since those happen *after* flushing the prepare record to disk (and we didn't find this prepare record). Thus because it hasn't voted yet, we can safely abort the transaction.
+The first possible failure point is in the first step of phase 1: participant node errors, begins recovery, and sees no prepare record flushed by it to disk. This probably means that the participant has not even started 2PC yet. We also know it hasn't sent out any vote (YES/NO) messages to the coordinator yet, since those happen *after* flushing the prepare record to disk (and we didn't find this prepare record). Thus because it hasn't voted yet, we can safely abort the transaction (locally). This will, of course, lead to the entire thing getting aborted for everyone, since the unanimous vote is broken. x
 
 ### Failure 2: Recovering Participant, Prepare Record
 

@@ -48,7 +48,7 @@ Thus, joins 1, 5, and 6 will advance to pass 3.
 
 Same logic as before. Now, though, we want to consider all possible ways to join THREE tables without cross joins: in particular, all ways to join 2 tables with a third remaining base table.
 
-Again, the query for reference: 
+Again, the query for reference: 	
 
 ```sql
 SELECT *

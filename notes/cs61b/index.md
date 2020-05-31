@@ -12,4 +12,7 @@ Below you'll find an assortment of lecture and personal notes for CS61B: Data St
 
 [Lecture 5: Arrays](61BLec5.pdf)
 
+[Lecture 6: Testing and SelectionSort](61BLec6.pdf)
+
+
 

@@ -10,3 +10,6 @@ Below you'll find an assortment of lecture and personal notes for CS61B: Data St
 
 [Lecture 4: Another IntList Function, and More Pointer Manipulation Practice](61BLec4.pdf)
 
+[Lecture 5: Arrays](61BLec5.pdf)
+
+

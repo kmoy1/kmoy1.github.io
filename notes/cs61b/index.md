@@ -2,17 +2,17 @@
 
 Below you'll find an assortment of lecture and personal notes for CS61B: Data Structures at Berkeley.
 
-[Lecture 1 - Java Basics: Classes and Access](61BLec1.pdf)
+[Note 1: Java Basics: Classes and Access](61BLec1.pdf)
 
-[Lecture 2 - Program Construction and JUnit](61BLec2.pdf)
+[Note 2: Program Construction and JUnit](61BLec2.pdf)
 
-[Lecture 3: Values, Containers, Pointers, IntLists](61BLec3.pdf)
+[Note 3: Values, Containers, Pointers, IntLists](61BLec3.pdf)
 
-[Lecture 4: Another IntList Function, and More Pointer Manipulation Practice](61BLec4.pdf)
+[Note 4: Another IntList Function, and More Pointer Manipulation Practice](61BLec4.pdf)
 
-[Lecture 5: Arrays](61BLec5.pdf)
+[Note 5: Arrays](61BLec5.pdf)
 
-[Lecture 6: Testing and SelectionSort](61BLec6.pdf)
+[Note 6: Testing and SelectionSort](61BLec6.pdf)
 
 
 

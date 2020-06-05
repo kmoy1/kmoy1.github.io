@@ -14,5 +14,6 @@ Below you'll find an assortment of lecture and personal notes for CS61B: Data St
 
 [Note 6: Testing and SelectionSort](61BLec6.pdf)
 
+[Note 7: OOP Basics, Remastered](61BLec7.pdf)
 
 

@@ -8,9 +8,8 @@ Some notes I've written over the years.
 
 [Algorithms](cs170)
 
-[Discrete Math + Probability Theory](cs70)
-
 [Databases](cs186)
 
+[Computer Architecture](cs61c)
 
 

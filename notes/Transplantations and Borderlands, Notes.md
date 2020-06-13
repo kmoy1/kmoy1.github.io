@@ -1,0 +1,7 @@
+# Transplantations and Borderlands, Notes
+
+## Introduction
+
+The first English settlements were mostly business, people quite unprepared for the hardships ahead. Europeans attempted to create "transplantations" of their original countries by isolating themselves from Indian society. This proved impossible: America at this point was populated by Native Americans, European immigrants, and (soon) Africans. American society was, from the beginning, a "middle ground" full of diversity.
+
+All of British North America was a “middle ground” during the early years of colonization. Through much of the seventeenth century, European colonies both relied upon and did battle with the Indian tribes and struggled with challenges from other Europeans in their midst. Eventually, however, some areas of English settlement— especially the growing communities along the eastern seaboard—managed to dominate their own regions, marginalizing or expelling Indians and other challengers. In these eastern colonies, the English created significant towns and cities; built political, religious, and educational institutions; and created agricultural systems of great productivity. They also developed substantial differences from one another—perhaps most notably in the growth of a slave-driven agricultural economy in the south. 

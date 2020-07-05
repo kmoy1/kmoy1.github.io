@@ -7,3 +7,6 @@
 [Note 5: Memory Management in C](61cNote5.pdf)
 
 [Note 6: Floating Points](61cNote6.pdf)
+
+[Note 7: RISC-V](61cNote7.pdf)
+

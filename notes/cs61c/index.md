@@ -5,3 +5,5 @@
 [Note 4: C Basics, Part 2](61cNote4.pdf)
 
 [Note 5: Memory Management in C](61cNote5.pdf)
+
+[Note 6: Floating Points](61cNote6.pdf)

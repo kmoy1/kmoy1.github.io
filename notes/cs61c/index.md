@@ -11,3 +11,6 @@
 [Note 7: RISC-V](61cNote7.pdf)
 
 [Note 8: RISC-V Function Calling](61cNote8.pdf)
+
+[Note 9: RISC-V Instruction Formats](61cNote9.pdf)
+

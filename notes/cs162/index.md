@@ -4,4 +4,4 @@
 
 [Note 2: OS Design Patterns (Optional)](CS162_Note_2__OS_Design_Patterns.pdf)
 
-[Note 3: Qualities of the Ideal OS](CS162_Note_2__OS_Design_Patterns.pdf)
+[Note 3: Qualities of the Ideal OS](CS162_Note_3__OS_Quality.pdf)

@@ -1,8 +1,3 @@
----
-layout: page
-title: About Me
----
-
 # About Me
 
 Hi! My name is Kevin Moy, and I'm a sophomore majoring in computer science and data science at UC Berkeley. 

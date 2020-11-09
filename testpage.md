@@ -16,3 +16,10 @@ This is a mere testpage meant mostly to test markdown stuff.
 * Programs
 
 
+<div id="text"></div>
+ 
+<script>
+document.getElementById("text").innerHTML = "Text added by JavaScript code";
+</script>
+
+

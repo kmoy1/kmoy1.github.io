@@ -16,7 +16,7 @@ This is a mere testpage meant mostly to test markdown stuff.
 * Programs
 
 
-<script src=""https://code.jquery.com/jquery-3.5.1.min.js""></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="/public/js/test.js"></script>
 <div id="text"></div>
 

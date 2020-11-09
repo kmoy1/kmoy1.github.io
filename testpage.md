@@ -16,15 +16,8 @@ This is a mere testpage meant mostly to test markdown stuff.
 * Programs
 
 
+<script src="jquery-3.5.1.min.js"></script>
+<script src="/public/js/test.js"></script>
 <div id="text"></div>
- 
-<h2>My First JavaScript</h2>
-
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.</button>
-
-<p id="demo"></p>
-
 
 
